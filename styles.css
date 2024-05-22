@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    background: url(task1s.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+    
+}
+
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 3px solid black ;
+    background-color:linen;
+    
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.company-name {
+    background-color:lightpink;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.dotted-line{
+    border: none;
+    border-top: 2px dotted #c869ff;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.team-section {
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.team-category {
+    margin-bottom: 40px;
+}
+
+.category-title {
+    background-color: lightpink;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #c869ff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #c869ff;
+    padding: 2px;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
